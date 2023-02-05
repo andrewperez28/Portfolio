@@ -1,0 +1,287 @@
+@import "../node_modules/modern-normalize/modern-normalize.css";
+/* npm install modern-normalize 
+            Resets elements for browser consistancy.  
+            http://nicolasgallagher.com/about-normalize-css/ 
+          */
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+/*   ----- Variables  -----  */
+:root {
+  --custom-color-name: ;
+  --custom-embellishment-name: ;
+}
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {
+  color: #cad2c5;
+  background-color: #2f3e46;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2em;
+  margin: auto 0;
+  padding: 5px;
+}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  text-align: center;
+  font-size: 2em;
+  margin: 2px;
+  border: solid;
+  border-color: #57a773;
+  padding: 10px;
+  text-decoration: solid;
+}
+nav a {
+  padding: 50px;
+  color: #57a773;
+  vertical-align: middle;
+  text-decoration: solid;
+}
+nav a:hover {
+  color: red;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+  text-align: center;
+  font-family: "Black Ops One", cursive;
+  font-size: 2em;
+  padding: 2px;
+  margin: 2px;
+  font-weight: 100;
+}
+main {
+  color: #84a98c;
+  background-color: #354f52;
+  font-family: "Kanit", sans-serif;
+  font-size: 0.9em;
+  margin: auto 0;
+  padding: 10px;
+}
+article {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #57a773;
+  background-color: #2f3e46;
+}
+
+/*  -----  Typography  ----- */
+p {
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+} /* Define consistant font family.*/
+h1 {
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+/*  ----- Coding or instructional typography ----- */
+pre {
+}
+code {
+}
+kbd {
+}
+samp {
+}
+var {
+}
+del {
+}
+ins {
+}
+
+/*  ----- Table ----- */
+table {
+  margin: 0 auto;
+  font-size: 2em;
+  border-collapse: collapse;
+  border-color: #84a98c;
+  border-style: solid;
+}
+
+.icon:hover {
+  color: red;
+  cursor: pointer;
+}
+caption {
+  margin: 5px;
+  padding: 10px;
+}
+thead {
+}
+tbody {
+  border-color: #84a98c;
+}
+tfoot {
+}
+tr {
+}
+tr:nth-child(even) {
+}
+th {
+  padding: 25px;
+  border-collapse: collapse;
+  border-color: #84a98c;
+  border-style: ridge;
+}
+td {
+  padding: 25px;
+  border-collapse: collapse;
+  border-color: #84a98c;
+  border-style: ridge;
+  text-align: center;
+}
+td:nth-child(1) {
+}
+colgroup {
+}
+data {
+}
+datalist {
+}
+
+/*  ----- Form ----- */
+form {
+  text-align: center;
+  font-size: 1.2em;
+}
+fieldset {
+  text-align: center;
+  border-color: #57a773;
+  border-collapse: collapse;
+  border: none;
+}
+legend {
+  text-align: center;
+}
+label {
+  font-size: 1.2em;
+  padding: 20px;
+}
+button {
+  margin: 20px;
+  padding: 5px;
+}
+button:hover {
+  color: red;
+  cursor: pointer;
+}
+input {
+  padding: 5px;
+  font-size: 1.2em;
+}
+output {
+}
+meter {
+}
+progress {
+}
+select {
+  padding: 5px;
+  font-size: 1.2em;
+}
+optgroup {
+}
+option {
+}
+textarea {
+}
+
+/* ----- Media ----- */
+figure {
+}
+figcaption {
+}
+img {
+}
+svg {
+}
+picture {
+}
+source {
+}
+iframe {
+}
+video {
+}
+audio {
+}
+embed {
+}
+object {
+}
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.floatright {
+}
+.floatleft {
+}
+.center-middle {
+}
+
+.ten {
+}
+.twenty {
+}
+.thirty {
+}
+.forty {
+}
+.fifty {
+}
+.sixty {
+}
+.seventy {
+}
+.eighty {
+}
+
+.radius {
+}
+.circle {
+}
+.boxshadow {
+}
+.tshadow {
+}
+.gradient {
+}
+.shape {
+}
+
+@keyframes App-logo {
+}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {
+}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {
+}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {
+}
